@@ -55,9 +55,7 @@ const Button: React.FC<ButtonProps> = ({
 
     // Add classes
     let classes = "flex justify-center items-center py-2 px-2 rounded-full ";
-    if (layout === 1) {
-        classes += "bg-transparent ";
-    } else if (layout === 2) {
+    if (layout === 2) {
         classes += "bg-black-950 ";
     } else if (layout === 3) {
         classes += "bg-grey-200 ";
