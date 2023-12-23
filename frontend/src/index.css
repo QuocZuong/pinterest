@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply flex justify-center w-12 h-12 rounded-full hover:bg-grey-150;
+    }
+}
+
+.bg-transparent {
+    background-color: "transparent";
+}
