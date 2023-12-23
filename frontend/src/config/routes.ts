@@ -1,6 +1,6 @@
 const routes = {
     home: "/",
-    create: "/pin-creation-tool",
+    create: "/create",
     pin: "/pin/:id",
     profile: "/:nickname",
     settings: "/settings",
