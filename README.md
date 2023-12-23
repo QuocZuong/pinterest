@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Pinterest Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+<h2>
+Hello guys, this is my personal project inspired by Pinterest
+<h2/>
 
-Currently, two official plugins are available:
+<p align="center">
+<div>
+<img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?&style=for-the-badge&logo=Pinterest&logoColor=white
+" />
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div>
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+"/>
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+"/>
+</div>
 
-## Expanding the ESLint configuration
+<div>
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+"/>
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<div>
+<img src="https://img.shields.io/github/languages/top/quoczuong/pinterest?style=flat-square&color=5D6D7E" alt="GitHub top language" />
 
-- Configure the top-level `parserOptions` property like this:
+<img src="https://img.shields.io/github/last-commit/quoczuong/pinterest?style=flat-square&color=5D6D7E" alt="git-last-commit" />
+<img src="https://img.shields.io/github/commit-activity/m/quoczuong/pinterest?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
+</div>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+</div>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Description
+
+**Pinterest Clone** is a web application that replicates the popular Pinterest platform. This clone offers a modern and responsive user interface, allowing users to discover, save, and organize a wide range of visual content.
+
+## Features
+
+-   User authentication
+-   Upload Image
+-   Feed
+-   Profile Management
+-   Image Management
+-   More...
