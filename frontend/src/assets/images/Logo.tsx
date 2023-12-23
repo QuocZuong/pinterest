@@ -3,14 +3,13 @@ import React from "react";
 const Logo = () => {
     return (
         <svg
-            width="256px"
-            height="256px"
+            width="24px"
+            height="24px"
             viewBox="0 0 256 256"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
-            className="w-16 h-16"
         >
             <g>
                 <path
