@@ -1,5 +1,5 @@
 const Pin = () => {
-    return <div></div>;
+    return <div>Pin</div>;
 };
 
 export default Pin;
