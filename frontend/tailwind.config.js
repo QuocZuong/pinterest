@@ -25,11 +25,28 @@ export default {
             silver: "#ecebff",
             "bubble-gum": "#ff77e9",
             bermuda: "#78dcca",
+            red: {
+                100: "#ff0000",
+                // hover
+                200: "#e60023",
+                300: "#e60023",
+            },
+            white: {
+                100: "#ffffff",
+                // hover
+                200: "#f0f0f0",
+            },
         },
         extend: {
             textColor: {
+                red: "#e60023",
                 white: "#ffffff",
-                dark: "#000000",
+                black: "#000000",
+            },
+            screens: {
+                sm: "694px",
+                md: "849px",
+                lg: "1200px",
             },
         },
     },
