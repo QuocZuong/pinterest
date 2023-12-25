@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useRef, useState } from "react";
-import { faCircleNotch, faCircleXmark, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleNotch, faCircleXmark, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+
 import useDebounce from "@/hooks/useDebounce";
 
 type AccountProps = {
@@ -68,7 +69,7 @@ const Search = () => {
             </div>
             <input
                 ref={inputRef}
-                className="w-full h-full px-2 bg-transparent rounded outline-none bg-opacity-0"
+                className="w-full h-full px-2 bg-transparent bg-opacity-0 rounded outline-none"
                 type="text"
                 placeholder="Tìm kiếm"
                 value={searchInput}
