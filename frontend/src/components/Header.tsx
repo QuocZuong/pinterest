@@ -1,5 +1,6 @@
-import { faCommentDots, faBell, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCommentDots, faBell, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+
 import Button from "./Button";
 import images from "@/assets/images";
 import Search from "./Search";
@@ -7,7 +8,7 @@ import Search from "./Search";
 const Header = () => {
     return (
         <div className="flex items-center h-20">
-            <div className="flex items-center justify-evenly gap-6 w-full h-14 px-4 py-1">
+            <div className="flex items-center w-full gap-6 px-4 py-1 justify-evenly h-14">
                 <div className="flex gap-1 px-2">
                     <div className="btn">
                         <Button layout="3" className="h-full" to="/">
@@ -29,7 +30,7 @@ const Header = () => {
                 {/* Search section */}
                 <Search />
 
-                <div className="flex justify-center items-center gap-2">
+                <div className="flex items-center justify-center gap-2 ">
                     <div className="btn">
                         <Button>
                             <FontAwesomeIcon icon={faBell} style={{ color: "#5f5f5f" }} size="xl" />
@@ -45,7 +46,7 @@ const Header = () => {
                             <img src="/avatar.jpg" alt="" className="rounded-full" />
                         </Button>
                     </div>
-                    <div className="flex justify-center items-center w-8 h-8 rounded-full hover:bg-grey-150">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-grey-150 ">
                         <Button className="">
                             <FontAwesomeIcon icon={faChevronDown} style={{ color: "#5f5f5f" }} />
                         </Button>
