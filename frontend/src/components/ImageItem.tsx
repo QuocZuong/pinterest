@@ -1,13 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Button from "./Button";
 import { faArrowUpFromBracket, faChevronDown, faEllipsis } from "@fortawesome/free-solid-svg-icons";
+
+import Button from "./Button";
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const ImageItem = ({ src, userId = "" }: { src: string; userId?: string }) => {
     return (
         <div className="w-[236px] mb-8 group">
             <div className="relative">
-                <div className="absolute flex flex-col justify-between w-full h-full py-2 px-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute z-10 flex flex-col justify-between w-full h-full px-2 py-2 transition-opacity opacity-0 group-hover:opacity-100">
                     <div className="top-0 flex justify-between">
                         <Button className="text-white">
                             <span className="mr-2">Anime</span>
